@@ -6,3 +6,5 @@ The code was rewriten to C from Python from this folder https://github.com/Alfri
 Library used from here: https://github.com/rweather/arduinolibs
 
 In real time usage, it needs a clock module to get real time.
+
+# ITS NOT BEING DEVELOPED
