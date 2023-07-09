@@ -1,6 +1,6 @@
 #define HASH_SIZE 32
 
-#include <SHA256.h>
+#include <SHA256.h> // https://github.com/rweather/arduinolibs
 
 void print_uint64_t(uint64_t num);
 
@@ -191,7 +191,7 @@ struct BlockChain {
     Serial.println("");
 //    Serial.println(result[0] == '0');
     
-    return result[0] == 0x8c && result[1] == 0x8c;  
+    return result[0] == uint8_t(0x00);  
 //    return result[0] == 0 && result[1] == 0 && result[2] == 0 && result[3] == 0;
   }
 
